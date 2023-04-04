@@ -1,4 +1,8 @@
 const http = require("http");
+// For Creating multiple processes in Windows
+// const cluster = require("cluster");
+// cluster.schedulingPolicy = cluster.SCHED_RR;
+
 const app = require("./app.js");
 
 const { loadPlanetsData } = require("./models/planets.model.js");
