@@ -2,6 +2,7 @@ const http = require("http");
 // For Creating multiple processes in Windows
 // const cluster = require("cluster");
 // cluster.schedulingPolicy = cluster.SCHED_RR;
+require("dotenv").config();
 
 const app = require("./app.js");
 
