@@ -38,7 +38,9 @@ function loadPlanetsData() {
       .on("end", () => {
         Promise.allSettled(arrayOfSavePlanetPromises).then(() => {
           const countPlanetsFound = arrayOfSavePlanetPromises.length;
-          console.log(`${countPlanetsFound} habitable planets have been found`);
+          console.log(
+            `${countPlanetsFound} habitable planets have been found!`
+          );
           resolve();
         });
       });
