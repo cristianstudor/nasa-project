@@ -3,7 +3,7 @@ const {
   scheduleNewLaunch,
   existLaunchWithId,
   abortLaunchById
-} = require("../../models/launches.model");
+} = require("../../models/launches/launches.model");
 
 const { getPagination } = require("../../services/query.js");
 

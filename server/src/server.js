@@ -8,8 +8,8 @@ const app = require("./app.js");
 
 const { mongoConnect } = require("./services/mongo.js");
 
-const { loadPlanetsData } = require("./models/planets.model.js");
-const { loadLaunchData } = require("./models/launches.model.js");
+const { loadPlanetsData } = require("./models/planets/planets.model.js");
+const { loadLaunchData } = require("./models/launches/launches.model.js");
 
 const PORT = process.env.PORT || 8000;
 

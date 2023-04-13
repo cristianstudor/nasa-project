@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const launches = require("./launches.mongo.js");
-const planets = require("./planets.mongo.js");
+const planets = require("../planets/planets.mongo.js");
 
 const DEFAULT_FLIGHT_NUMBER = 100;
 
