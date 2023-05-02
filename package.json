@@ -8,6 +8,7 @@
     "watch-win": "npm run server | npm run client",
     "server": "npm run watch --prefix server",
     "client": "npm run start --prefix client",
+    "install-all": "npm install --prefix client && npm install --prefix server",
     "watch": "concurrently \"npm run server\" \"npm run client\"",
     "deploy": "npm run build --prefix client && npm start --prefix server",
     "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
